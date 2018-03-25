@@ -4,15 +4,15 @@ layouts:     ./_layouts
 timezone:    Asia/Hongkong
 
 # Site settings
-email: 1540294142@qq.com
-author: Joytou Wu
-owner_name: Joytou Wu
-github_username: joytou
-repo: JOYTOU
+email: ShenDongHai_SDH@163.com
+author: SDH
+owner_name: ssssdh
+github_username: ssssdh
+repo: ssssdh.github.io
 
 #Server
-url: http://joytou.nets.hk
-github: https://github.com/joytou/
+url: http://www.shendonghai.com
+github: https://ssssdh.github.io/
 coding: https://coding.net/joytou/
 baseurl: ""
 
