@@ -23,7 +23,8 @@ tag: 链接Oracle数据库
 会看到一个文档，在目录中点击”Hibernate配置“ ，你将会看到Hibernate配置文件，拷贝到你创建的文件中。
 
 **或者拷贝下面配置hibernate.cfg.xml好的:**
-	
+
+<pre><code>
 > 1、		<?xml version='1.0' encoding='utf-8'?>
 > 2、			<!DOCTYPE hibernate-configuration PUBLIC 
 > 3、				"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
@@ -62,6 +63,7 @@ tag: 链接Oracle数据库
 > 36、			</session-factory>
 > 37、		
 > 38、		</hibernate-configuration>
+</code></pre>
 
 ### 创建映射文件
 
