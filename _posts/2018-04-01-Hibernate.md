@@ -19,9 +19,9 @@ tag: 链接Oracle数据库
 
 ### 创建配置文件
 
-	打开你刚才解压hibernate-distribution-3.3.2.GA-dist.zip的压缩包中documentation\manual\zh-CN\html_single目录下index.html
-	会看到一个文档，在目录中点击”Hibernate配置“ ，你将会看到Hibernate配置文件，拷贝到你创建的文件中。
-	**或者拷贝下面配置hibernate.cfg.xml好的:**
+打开你刚才解压hibernate-distribution-3.3.2.GA-dist.zip的压缩包中documentation\manual\zh-CN\html_single目录下index.html
+会看到一个文档，在目录中点击”Hibernate配置“ ，你将会看到Hibernate配置文件，拷贝到你创建的文件中。
+**或者拷贝下面配置hibernate.cfg.xml好的:**
 	
 > 1、<?xml version='1.0' encoding='utf-8'?>
 > 2、<!DOCTYPE hibernate-configuration PUBLIC
@@ -64,8 +64,8 @@ tag: 链接Oracle数据库
 
 ### 创建映射文件
 
-	还是在参考文档中点击映射文件，拷贝第一个和第四个代码。（注：映射文件对应持久化类）
-	**或者拷贝下面xxx.hbm.xml文件:**
+还是在参考文档中点击映射文件，拷贝第一个和第四个代码。（注：映射文件对应持久化类）
+**或者拷贝下面xxx.hbm.xml文件:**
 	
 > 1、<?xml version="1.0"?>
 > 2、<!DOCTYPE hibernate-mapping PUBLIC
