@@ -69,24 +69,22 @@ tag: 链接Oracle数据库
 
 **或者拷贝下面xxx.hbm.xml文件:**
 
-<pre><code>
-> <?xml version="1.0"?>
-> <!DOCTYPE hibernate-mapping PUBLIC
-> "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-> "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-> 
-> <hibernate-mapping package="org.hibernate.tutorial.domain">
-> 
-> <class name="Event" table="EVENTS">
-> <id name="id" column="EVENT_ID">
-> <generator class="native"/>
-> </id>
-> <property name="date" type="timestamp" column="EVENT_DATE"/>
-> <property name="title"/>
-> </class>
-> 
-> </hibernate-mapping>
-</code></pre>
+>	<?xml version="1.0"?>
+>	<!DOCTYPE hibernate-mapping PUBLIC
+>	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+>	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+>	
+>	<hibernate-mapping package="org.hibernate.tutorial.domain">
+>	
+>	<class name="Event" table="EVENTS">
+>	<id name="id" column="EVENT_ID">
+>	<generator class="native"/>
+>	</id>
+>	<property name="date" type="timestamp" column="EVENT_DATE"/>
+>	<property name="title"/>
+>	</class>
+>	
+>	</hibernate-mapping>
 
 ### Hibernate操作数据库七个步骤
 	
