@@ -14,7 +14,7 @@ tag: 链接Oracle数据库
 	
 **下载jar包**
 
-> 1、在[Hibernate](http://www.hibernate.org)官网下载(推荐下载hibernate-distribution-3.3.2.GA-dist.zip)
+> 1、在[Hibernate](http://www.hibernate.org)官网下载(推荐下载hibernate-distribution-3.3.2.GA-dist.zip)  
 > 2、解压后把hibernate3.jar和lib\required下的6个jar包拷贝到你的项目下(还有ojdbc6.jar包)
 
 ### 创建配置文件
@@ -89,19 +89,19 @@ tag: 链接Oracle数据库
 
 ### Hibernate操作数据库七个步骤
 	
-(1)读取并解析配置文件
->* Configuration conf = new Configuration().configre();
-(2)读取并解析映射文件
->* SessionFactory sf = conf.buildSessionFactory();
-(3)打开Session
->* Session session = sf.openSession();
-(4)开始一个事务
->* Transaction tx = session.beginTransaction();
-(5)数据库操作
->* session.save(xxx);
-(6)结束事务
->* session.close();
-(7)关闭session
+(1)读取并解析配置文件  
+>* Configuration conf = new Configuration().configre();  
+(2)读取并解析映射文件  
+>* SessionFactory sf = conf.buildSessionFactory();  
+(3)打开Session  
+>* Session session = sf.openSession();  
+(4)开始一个事务  
+>* Transaction tx = session.beginTransaction();  
+(5)数据库操作  
+>* session.save(xxx);  
+(6)结束事务  
+>* session.close();  
+(7)关闭session  
 >* session.close();
 
 
