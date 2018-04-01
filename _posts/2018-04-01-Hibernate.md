@@ -24,46 +24,44 @@ tag: 链接Oracle数据库
 
 **或者拷贝下面配置hibernate.cfg.xml好的:**
 
-<pre><code>
-> 1、		<?xml version='1.0' encoding='utf-8'?>
-> 2、			<!DOCTYPE hibernate-configuration PUBLIC 
-> 3、				"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-> 4、					"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
-> 5、		
-> 6、		<hibernate-configuration>
-> 7、		
-> 8、			<session-factory>
-> 9、		
-> 10、			<!-- Database connection settings -->
-> 11、			<property name="connection.driver_class">oracle.jdbc.driver.oracleDriver</property>
-> 12、			<property name="connection.url">jdbc:oracle:thin:@127.0.0.1:1521:ORCL</property>
-> 13、			<property name="connection.username">SCOTT</property>
-> 14、			<property name="connection.password">123456</property>
-> 15、		
-> 16、			<!-- JDBC connection pool (use the built-in) -->
-> 17、			<property name="connection.pool_size">1</property>
-> 18、		
-> 19、			<!-- SQL dialect -->
-> 20、			<property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
-> 21、
-> 22、			<!-- Enable Hibernate's automatic session context management -->
-> 23、			<property name="current_session_context_class">thread</property>
-> 24、		
-> 25、			<!-- Disable the second-level cache  -->
-> 26、			<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
-> 27、		
-> 28、			<!-- Echo all executed SQL to stdout -->
-> 29、			<property name="show_sql">true</property>
-> 30、		
-> 31、			<!-- Drop and re-create the database schema on startup -->
-> 32、			<property name="hbm2ddl.auto">update</property><br>
-> 33、		
-> 34、			mapping resource="(your hbm.xml Directory location ).hbm.xml"/>
-> 35、		
-> 36、			</session-factory>
-> 37、		
-> 38、		</hibernate-configuration>
-</code></pre>
+>    <?xml version='1.0' encoding='utf-8'?>
+>    <!DOCTYPE hibernate-configuration PUBLIC 
+>    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+>    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+>    
+>    <hibernate-configuration>
+>    
+>    <session-factory>
+>    
+>    <!-- Database connection settings -->
+>    <property name="connection.driver_class">oracle.jdbc.driver.oracleDriver</property>
+>    <property name="connection.url">jdbc:oracle:thin:@127.0.0.1:1521:ORCL</property>
+>    <property name="connection.username">SCOTT</property>
+>    <property name="connection.password">123456</property>
+>    
+>    <!-- JDBC connection pool (use the built-in) -->
+>    <property name="connection.pool_size">1</property>
+>    
+>    <!-- SQL dialect -->
+>    <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+>    
+>    <!-- Enable Hibernate's automatic session context management -->
+>    <property name="current_session_context_class">thread</property>
+>    
+>    <!-- Disable the second-level cache  -->
+>    <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+>    
+>    <!-- Echo all executed SQL to stdout -->
+>    <property name="show_sql">true</property>
+>    
+>    <!-- Drop and re-create the database schema on startup -->
+>    <property name="hbm2ddl.auto">update</property><br>
+>    
+>    <mapping resource="(your hbm.xml Directory location ).hbm.xml"/>
+>    
+>    </session-factory>
+>    
+>    </hibernate-configuration>
 
 ### 创建映射文件
 
@@ -72,22 +70,22 @@ tag: 链接Oracle数据库
 **或者拷贝下面xxx.hbm.xml文件:**
 
 <pre><code>
-> 1、<?xml version="1.0"?>
-> 2、<!DOCTYPE hibernate-mapping PUBLIC
-> 3、"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-> 4、"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-> 5、
-> 6、<hibernate-mapping package="org.hibernate.tutorial.domain">
-> 7、
-> 8、<class name="Event" table="EVENTS">
-> 9、<id name="id" column="EVENT_ID">
-> 10、<generator class="native"/>
-> 11、</id>
-> 12、<property name="date" type="timestamp" column="EVENT_DATE"/>
-> 13、<property name="title"/>
-> 14、</class>
-> 15、
-> 16、</hibernate-mapping>
+> <?xml version="1.0"?>
+> <!DOCTYPE hibernate-mapping PUBLIC
+> "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+> "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+> 
+> <hibernate-mapping package="org.hibernate.tutorial.domain">
+> 
+> <class name="Event" table="EVENTS">
+> <id name="id" column="EVENT_ID">
+> <generator class="native"/>
+> </id>
+> <property name="date" type="timestamp" column="EVENT_DATE"/>
+> <property name="title"/>
+> </class>
+> 
+> </hibernate-mapping>
 </code></pre>
 
 ### Hibernate操作数据库七个步骤
