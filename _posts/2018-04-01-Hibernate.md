@@ -24,44 +24,44 @@ tag: 链接Oracle数据库
 
 **或者拷贝下面配置hibernate.cfg.xml好的:**
 
-><?xml version='1.0' encoding='utf-8'?>  
-><!DOCTYPE hibernate-configuration PUBLIC  
->"-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
->"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">  
->  
-><hibernate-configuration>  
->  
-><session-factory>  
->  
-><!-- Database connection settings -->  
-><property name="connection.driver_class">oracle.jdbc.driver.oracleDriver</property>  
-><property name="connection.url">jdbc:oracle:thin:@127.0.0.1:1521:ORCL</property>  
-><property name="connection.username">SCOTT</property>  
-><property name="connection.password">123456</property>  
->  
-><!-- JDBC connection pool (use the built-in) -->  
-><property name="connection.pool_size">1</property>  
->  
-><!-- SQL dialect -->  
-><property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>  
->  
-><!-- Enable Hibernate's automatic session context management -->  
-><property name="current_session_context_class">thread</property>  
->  
-><!-- Disable the second-level cache  -->  
-><property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>  
->  
-><!-- Echo all executed SQL to stdout -->  
-><property name="show_sql">true</property>  
->  
-><!-- Drop and re-create the database schema on startup -->  
-><property name="hbm2ddl.auto">update</property><br>  
->  
-><mapping resource="(your hbm.xml Directory location ).hbm.xml"/>  
->  
-></session-factory>  
->  
-></hibernate-configuration>
+>	<?xml version='1.0' encoding='utf-8'?>  
+>	<!DOCTYPE hibernate-configuration PUBLIC  
+>	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+>	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">  
+>	  
+>	<hibernate-configuration>  
+>	  
+>	<session-factory>  
+>	  
+>	<!-- Database connection settings -->  
+>	<property name="connection.driver_class">oracle.jdbc.driver.oracleDriver</property>  
+>	<property name="connection.url">jdbc:oracle:thin:@127.0.0.1:1521:ORCL</property>  
+>	<property name="connection.username">SCOTT</property>  
+>	<property name="connection.password">123456</property>  
+>	  
+>	<!-- JDBC connection pool (use the built-in) -->  
+>	<property name="connection.pool_size">1</property>  
+>	  
+>	<!-- SQL dialect -->  
+>	<property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>  
+>	  
+>	<!-- Enable Hibernate's automatic session context management -->  
+>	<property name="current_session_context_class">thread</property>  
+>	  
+>	<!-- Disable the second-level cache  -->  
+>	<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>  
+>	  
+>	<!-- Echo all executed SQL to stdout -->  
+>	<property name="show_sql">true</property>  
+>	  
+>	<!-- Drop and re-create the database schema on startup -->  
+>	<property name="hbm2ddl.auto">update</property><br>  
+>	  
+>	<mapping resource="(your hbm.xml Directory location ).hbm.xml"/>  
+>	  
+>	</session-factory>  
+>	  
+>	</hibernate-configuration>
 
 ### 创建映射文件
 
