@@ -68,39 +68,48 @@ tag: 链接Oracle数据库
 ### 创建映射文件
 
 还是在参考文档中点击映射文件，拷贝第一个和第四个代码。（注：映射文件对应持久化类）
+
 **或者拷贝下面xxx.hbm.xml文件:**
-	
-> 1、		<?xml version="1.0"?>
-> 2、		<!DOCTYPE hibernate-mapping PUBLIC
-> 3、 		       "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-> 4、   		     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-> 5、			
-> 6、		<hibernate-mapping package="org.hibernate.tutorial.domain">
-> 7、			
-> 8、			<class name="Event" table="EVENTS">
-> 9、				<id name="id" column="EVENT_ID">
-> 10、					<generator class="native"/>
-> 11、				</id>
-> 12、				<property name="date" type="timestamp" column="EVENT_DATE"/>
-> 13、				<property name="title"/>
-> 14、			</class>
-> 15、			
-> 16、		</hibernate-mapping>
+
+<pre><code>
+> 1、<?xml version="1.0"?>
+> 2、<!DOCTYPE hibernate-mapping PUBLIC
+> 3、"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+> 4、"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+> 5、
+> 6、<hibernate-mapping package="org.hibernate.tutorial.domain">
+> 7、
+> 8、<class name="Event" table="EVENTS">
+> 9、<id name="id" column="EVENT_ID">
+> 10、<generator class="native"/>
+> 11、</id>
+> 12、<property name="date" type="timestamp" column="EVENT_DATE"/>
+> 13、<property name="title"/>
+> 14、</class>
+> 15、
+> 16、</hibernate-mapping>
+</code></pre>
 
 ### Hibernate操作数据库七个步骤
 	
 (1)读取并解析配置文件  
->* Configuration conf = new Configuration().configre();  
+>* Configuration conf = new Configuration().configre();
+  
 (2)读取并解析映射文件  
->* SessionFactory sf = conf.buildSessionFactory();  
+>* SessionFactory sf = conf.buildSessionFactory(); 
+ 
 (3)打开Session  
 >* Session session = sf.openSession();  
+
 (4)开始一个事务  
->* Transaction tx = session.beginTransaction();  
+>* Transaction tx = session.beginTransaction(); 
+ 
 (5)数据库操作  
 >* session.save(xxx);  
+
 (6)结束事务  
 >* session.close();  
+
 (7)关闭session  
 >* session.close();
 
