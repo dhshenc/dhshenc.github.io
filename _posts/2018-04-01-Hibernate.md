@@ -109,6 +109,10 @@ tag: 链接Oracle数据库
 (7)关闭session  
 >* session.close();
 
+<br>
+
+转载请注明：[程序海的博客](https://www.shendonghai.com) » [点击阅读原文](https://www.shendonghai.com/2018/04/Hibernate/) 
+
 
 	
 
