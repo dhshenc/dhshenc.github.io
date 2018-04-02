@@ -39,7 +39,15 @@ title: 关于我
 
 <p>
 
-博客源码在 <a target="_blank" href='https://github.com/ssssdh/ssssdh.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
+<h3> 博客源码 </h3>
+
+<p>
+
+此博客源码来源于[潘柏信](https://github.com/leopardpan/leopardpan.github.io)
+
+<p>
+
+这是我的 <a target="_blank" href='https://github.com/ssssdh/ssssdh.github.io/'>Github</a> ，你的 Star 是我更新的动力，谢谢~
 
 <p> 
 
