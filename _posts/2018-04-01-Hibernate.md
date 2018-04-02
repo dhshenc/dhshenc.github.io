@@ -15,7 +15,8 @@ tag: 链接Oracle数据库
 **下载jar包**
 
 > 1、在[Hibernate](http://www.hibernate.org)官网下载(推荐下载hibernate-distribution-3.3.2.GA-dist.zip)  
-> 2、解压后把hibernate3.jar和lib\required下的6个jar包拷贝到你的项目下(还有ojdbc6.jar包)
+> 2、或者在我的网盘下载[链接地址](https://pan.baidu.com/s/1XnoMaM5shxbeT0ccWexmIA)密码:qbjz    
+> 3、解压后把hibernate3.jar和lib\required下的6个jar包拷贝到你的项目下(还有ojdbc6.jar包)
 
 ### 创建配置文件
 
@@ -108,6 +109,14 @@ tag: 链接Oracle数据库
 
 (7)关闭session  
 >* session.close();
+
+### 其他
+
+> [MyEclipse连接Oracle数据库](https://www.cnblogs.com/userWuLiang/archive/2013/04/13/3018736.html)
+
+> [myeclipse反向生成hibernate文件](https://blog.csdn.net/u014008219/article/details/51120135)
+
+> [Myeclipse生成hibernate配置文件](https://blog.csdn.net/u013654037/article/details/36186933)
 
 <br>
 
