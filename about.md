@@ -27,6 +27,18 @@ title: 关于我
 
 <p> 
 
+<h3> MarkDown语法说明 </h3>
+
+<p>
+
+此文档用于查询MarkDown语法的使用
+
+<p>
+
+<a target="_blank" href='https://www.appinn.com/markdown/index.html'>MarkDown文档</a>
+
+<p>
+
 博客源码在 <a target="_blank" href='https://github.com/ssssdh/ssssdh.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
 
 <p> 
