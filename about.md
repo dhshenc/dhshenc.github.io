@@ -43,7 +43,7 @@ title: 关于我
 
 <p>
 
-此博客源码来源于<a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io'>[潘柏信]</a>
+此博客源码来源于<a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io'>[潘柏信]</a>的GitHub
 
 <p>
 
