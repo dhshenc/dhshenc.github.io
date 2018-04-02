@@ -114,9 +114,9 @@ tag: 链接Oracle数据库
 
 > [MyEclipse连接Oracle数据库](https://www.cnblogs.com/userWuLiang/archive/2013/04/13/3018736.html)
 
-> [myeclipse反向生成hibernate文件](https://blog.csdn.net/u014008219/article/details/51120135)
+> [MyEclipse反向生成hibernate文件](https://blog.csdn.net/u014008219/article/details/51120135)
 
-> [Myeclipse生成hibernate配置文件](https://blog.csdn.net/u013654037/article/details/36186933)
+> [MyEclipse生成hibernate配置文件](https://blog.csdn.net/u013654037/article/details/36186933)
 
 <br>
 
