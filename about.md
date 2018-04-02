@@ -19,11 +19,11 @@ title: 关于我
 
 <p>
 
-[Zzzp](http://www.idearfree.com) 博客
+<a target="_blank" href='https://www.idearfree.com/'>Zzzp博客</a>
 
 <p>
 
-[LaoMeng](www.mengfansong.com)博客
+<a target="_blank" href='https://www.mengfansong.com/'>LaoMeng博客</a>
 
 <p> 
 
