@@ -43,11 +43,11 @@ title: 关于我
 
 <p>
 
-此博客源码来源于[潘柏信](https://github.com/leopardpan/leopardpan.github.io)
+此博客源码来源于<a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io'>[潘柏信]</a>
 
 <p>
 
-这是我的 <a target="_blank" href='https://github.com/ssssdh/ssssdh.github.io/'>Github</a> ，你的 Star 是我更新的动力，谢谢~
+这是我的 <a target="_blank" href='https://github.com/ssssdh/ssssdh.github.io/'>GitHub</a> ，你的 Star 是我更新的动力，谢谢~
 
 <p> 
 
