@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Hibernate"
+title: "Hibernate框架"
 date: 2018-04-01
-tag: 链接Oracle数据库
+tag: Hibernate
 ---
 ### 介绍
 	
