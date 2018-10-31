@@ -22,11 +22,11 @@ title: 关于我
 
 <p>
 
-<a target="_blank" href='http://www.idearfree.com/'>Zzzp博客</a>
+<a target="_blank" href='https://www.idearfree.com/'>Zzzp博客</a>
 
 <p>
 
-<a target="_blank" href='http://www.mengfansong.com/'>LaoMeng博客（正在建设中......）</a>
+<a target="_blank" href='https://www.mengfansong.com/'>LaoMeng博客（正在建设中......）</a>
 
 <p> 
 
