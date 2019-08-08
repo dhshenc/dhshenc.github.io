@@ -14,8 +14,7 @@ tag: Hibernate
 	
 **下载jar包**
 
-> 1、在[Hibernate](http://www.hibernate.org)官网下载(推荐下载hibernate-distribution-3.3.2.GA-dist.zip)  
-> 2、或者在我的网盘下载[链接地址](https://pan.baidu.com/s/1XnoMaM5shxbeT0ccWexmIA)密码:qbjz    
+> 1、在[Hibernate](http://www.hibernate.org)官网下载(推荐下载hibernate-distribution-3.3.2.GA-dist.zip)    
 > 3、解压后把hibernate3.jar和lib\required下的6个jar包拷贝到你的项目下(还有ojdbc6.jar包)
 
 ### 创建配置文件

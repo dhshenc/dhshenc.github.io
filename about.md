@@ -10,7 +10,7 @@ title: 关于我
 
 <p>
 
-如果你有什么技术想和我交流，请给我发邮件。(注明：你在我博客看到的。我的邮箱:ShenDongHai_SDH@163.COM)
+如果你有什么问题，请给我发邮件。(注明：你在我博客看到的。我的邮箱:ShenDongHai_SDH@163.COM)
 
 <p>
 
@@ -22,11 +22,7 @@ title: 关于我
 
 <p>
 
-<a target="_blank" href='https://www.idearfree.com/'>Zzzp博客</a>
-
-<p>
-
-<a target="_blank" href='https://www.mengfansong.com/'>LaoMeng博客（正在建设中......）</a>
+<a target="_blank" href='https://zzzxb.github.io/'>Zzzp博客</a>
 
 <p> 
 
