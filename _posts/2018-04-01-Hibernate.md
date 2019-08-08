@@ -119,7 +119,7 @@ tag: Hibernate
 
 <br>
 
-转载请注明：[程序海的博客](https://www.shendonghai.com) » [点击阅读原文](https://www.shendonghai.com/2018/04/Hibernate/) 
+转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文](https://www.shendonghai.com/2018/04/Hibernate/) 
 
 
 	
