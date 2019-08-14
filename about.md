@@ -22,7 +22,7 @@ title: 关于我
 
 <p>
 
-<a target="_blank" href='https://zzzxb.github.io/'>Zzzp博客</a>
+<a target="_blank" href='https://zzzxb.github.io/'>Zzzxb博客</a>
 
 <p> 
 
