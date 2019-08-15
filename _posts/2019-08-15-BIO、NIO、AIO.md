@@ -30,7 +30,7 @@ tag: IO
 
 > * NIO 是 Java 1.4 引入的 java.nio 包，提供了 Channel、Selector、Buffer 等新的抽象，可以构建多路复用的、同步非阻塞 IO 程序，同时提供了更接近操作系统底层高性能的数据操作方式。
 
-> * NIO核心组件简单介绍[(具体去看上一篇文章)](http://www.shendonghai.com/2019/08/NIO/)
+> * NIO核心组件简单介绍[(具体去看上一篇文章)](http://www.shendonghai.com/2019/08/NIO/)  
 > NIO 包含下面几个核心的组件：
 >   - Channel(通道)
 >   - Buffer(缓冲区)
