@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>方块移动</title>
+    <style type="text/css">
+        body{
+            background: antiquewhite;
+        }
+        #area{
+            width: 300px;
+            height: 300px;
+            background:#FFFFFF;
+            margin: auto;
+        }
+        #fk{
+            width:10px;
+            height:10px;
+            background: #000000;
+            position: fixed;
+        }
+        #explain{
+            width:300px;
+            border:1px solid #00FFFF;
+            margin:20px auto;
+        }
+        span{
+            color: #FF0000;
+        }
+        #start{
+            width: 300px;
+            border: 1px solid #FFF000;
+            margin: 20px auto;
+            color: #FF0000;
+        }
+
+    </style>
+</head>
+<body >
+    <div id="clock" style="height: 100px;width: auto;">
+
+    </div>
+    <div id="area">
+        <div id="fk">
+        </div>
+    </div>
+    <div id="start">
+        按下面指定任意键开始
+    </div>
+    <div id="explain">
+        &nbsp;
+        <span>H</span>上&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>J</span>下&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>K</span>左&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>L</span>右
+    </div>
+    <script type="text/javascript" src="../js/方块移动.js"></script>
+</body>
+</html>
