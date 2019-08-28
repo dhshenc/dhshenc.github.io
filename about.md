@@ -14,6 +14,14 @@ title: 关于我
 
 <p>
 
+闲来无事做，写个小游戏
+
+<p>
+
+<a target="_blank" href="/game/方块移动.html">有BUG的贪吃蛇</a>
+
+<p>
+
 <h3> 我们的博客 </h3>  
 
 <p>
