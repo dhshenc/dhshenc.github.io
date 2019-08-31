@@ -19,7 +19,7 @@ title: 关于我
 <p>
 
 <a target="_blank" href="/game/方块移动.html">有BUG的贪吃蛇</a>  
-<a target="_blank" href="/game/音乐播放.html">音乐播放</a>
+<a target="_blank" href="https://github.com/ssssdh/Music/blob/master/html/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE.html">音乐播放</a>
 
 <p>
 
