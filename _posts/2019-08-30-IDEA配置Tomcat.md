@@ -10,15 +10,15 @@ tag: tomcat
 
 ![12](/images/ideaTomcat/12.png)
 
-> (3)添加tomcat(如图):  
+> (2)添加tomcat(如图):  
 
 ![13](/images/ideaTomcat/13.png)
 
-> (4)选择下载的Tomcat文件位置(如图):  
+> (3)选择下载的Tomcat文件位置(如图):  
 
 ![14](/images/ideaTomcat/14.png)
 
-> (5)如图配置，点击OK完成(Tomcat也可创建项目后进行配置，这里就不演示了):  
+> (4)如图配置，点击OK完成(Tomcat也可创建项目后进行配置，这里就不演示了):  
 
 ![15](/images/ideaTomcat/15.png)
     
