@@ -27,11 +27,12 @@ title: 关于我
 
 <p>
 
-以下是朋友的博客
+以下是推荐的博客
 
 <p>
 
-<a target="_blank" href='https://zzzxb.github.io/'>Zzzxb博客</a>
+<a target="_blank" href='https://zzzxb.github.io/'>Zzzxb博客</a>  
+<a target="_blank" href='https://me.csdn.net/MmmxsBlogs'>MmmxsBlogs博客</a>
 
 <p> 
 
