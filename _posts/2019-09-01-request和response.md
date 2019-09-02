@@ -145,26 +145,6 @@ tag: Servlet
 > - getHeaders(String name)方法 //根据name获取keys
 > - getHeaderNames()获取所有请求的names
 
-> **获取请求正文参数**
-
-> - getParameter(name)方法
-> - getParameterValues（String name）方法
-> - getParameterNames方法 
-> - getParameterMap方法 //做框架用，非常实用
-> - getInputStream方法 获取输入流
-
-> **集合的使用**
-
-> - request.setAttribute("a","xxx")放值
-> - Object a = request.getAttribute("a")取值
-> - request.removeAttribute("a")删除
-
-> **使用application**
-
-> - ServletContext application = this.getServletContext();
-> - 获取文件路径
-> - String realPath = application.getRealPath("1.jpg");
-
 > * 部分代码示例:
 
 > ```java
@@ -181,6 +161,21 @@ tag: Servlet
 >   }
 >}
 >```
+
+> **获取请求正文参数**
+
+> - getParameter(name)方法
+> - getParameterValues（String name）方法
+> - getParameterNames方法 
+> - getParameterMap方法 //做框架用，非常实用
+> - getInputStream方法 获取输入流
+
+> **集合的使用**
+
+> - request.setAttribute("a","xxx")放值
+> - Object a = request.getAttribute("a")取值
+> - request.removeAttribute("a")删除
+
 
 <br>
     
