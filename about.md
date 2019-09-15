@@ -72,11 +72,3 @@ Java后端开发，努力成为全栈开发人员。
 这是我的 <a target="_blank" href='https://github.com/ssssdh/ssssdh.github.io/'>GitHub</a> ，你的 Star 是我更新的动力，谢谢~
 
 <p> 
-
-<p> 
-
-<p> 
-
-
-{% include comments.html %}
-
