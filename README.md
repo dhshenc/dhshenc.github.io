@@ -10,4 +10,4 @@
 
 #### 感谢   
 
-本博客模板来自[潘柏信](https://github.com/onevcat/vno-jekyll)博客上下载的。  
+本博客模板来自[潘柏信](http://baixin.io:8000)博客上下载的。  
