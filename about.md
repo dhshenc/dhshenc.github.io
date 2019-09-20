@@ -28,7 +28,6 @@ Java后端开发，努力成为全栈开发人员。
 <p>
 
 <a target="_blank" href="/game/方块移动.html">有BUG的贪吃蛇</a>  
-<a target="_blank" href="/game/音乐播放.html">音乐播放</a>
 
 <p>
 
