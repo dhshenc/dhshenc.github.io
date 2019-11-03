@@ -160,6 +160,50 @@ tag: Spring
 > <aop:pointcut id="pc" expression="within(com.service.UserServiceImpl) and not args(com.User)"/>
 >```
 
+### 使用注解增强
+
+> **@AspectJ**
+
+>```java
+>@Aspect // AspectJ的注解
+>@Component
+>public class MyAdvice {
+>    private final String pc = "execution(* com.xxx.service.UserServiceImpl.*(..))";
+>    @Before(pc) // AspectJ的注解
+>    public void beforeXxx(JoinPoint a) {
+>        System.out.println("target:"+a.getTarget());
+>        System.out.println("args:"+a.getArgs());
+>        System.out.println("method's name:"+a.getSignature().getName());
+>        System.out.println("before~~~~");
+>    }
+>
+>    @AfterReturning(value=pc,returning="ret9") // AspectJ的注解
+>    public void myAfterReturning(JoinPoint a,Object ret9){
+>        System.out.println("after~~~~:"+ret9);
+>    }
+>    @Around(pc) // AspectJ的注解
+>    public Object myInterceptor(ProceedingJoinPoint p) throws Throwable {
+>        System.out.println("interceptor1~~~~");
+>        Object ret = p.proceed();
+>        System.out.println("interceptor2~~~~");
+>        return ret;
+>    }
+>    @AfterThrowing(value=pc,throwing="ex") // AspectJ的注解
+>    public void myThrows(JoinPoint jp,Exception ex){
+>        System.out.println("throws");
+>        System.out.println("===="+ex.getMessage());
+>    }
+>}
+>```
+
+> **添加配置**
+
+>```xml
+> <!-- 添加如下配置 -->
+> <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+> <context:component-scan base-package="com.xxx"/>
+> ```
+
 <br>
     
-转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文]() 
+转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文](http://www.shendonghai.com/2019/11/Spring-AOP-Advice/) 
