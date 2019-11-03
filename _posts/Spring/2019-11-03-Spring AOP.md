@@ -32,6 +32,12 @@ tag: Spring
 > * 动态代理的实现方案：
 >   - `jdk代理` （ jdk在反射包中提供的一套api ） 通过和目标实现相同的接口保证功能一致
 >   - `cglib代理` ( 第三方cglib库中的一套api )   通过继承目标保证功能一致
+
+>```xml
+> <!-- 强制使用cglib代理 -->
+> <aop:config proxy-target-class="true">
+>```
+
 > * Spring的AOP章节，底层采纳了如上两种代理实现，并对动态代理提供了，简单的，可操作性强的决绝方案。
 > * 当项目中需要使用代理解决问题时，可以采用AOP章节的内容加以解决。
 > * org.springframework.aop.framework.DefaultAopProxyFactory#createAopProxy()中spring做了jdk代理和cglib代理的选择。
@@ -125,6 +131,14 @@ tag: Spring
 >```java
 > UserService userService = (UserService)context.getBean("userService");
 > userService.insertUser(new User(...));
+>```
+
+> **设置切入顺序**
+
+>```xml
+> <!-- order值越小，切入顺序就越优先 -->
+> <aop:advisor advice-ref="before05" pointcut-ref="pc05" order="2"/>
+> <aop:advisor advice-ref="before04" pointcut-ref="pc05" order="1"/>
 >```
 
 <br>
