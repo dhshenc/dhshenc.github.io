@@ -30,8 +30,8 @@ tag: Spring
 > * 通过动态字节码技术，在运行时动态生成代理( 反射 )。
 > * 则既不用维护代理类，有可以有代码打理额外功能。
 > * 动态代理的实现方案：
->   - jdk代理 （ jdk在反射包中提供的一套api ） 通过和目标实现相同的接口保证功能一致
->   - cglib代理 ( 第三方cglib库中的一套api )   通过继承目标保证功能一致
+>   - `jdk代理` （ jdk在反射包中提供的一套api ） 通过和目标实现相同的接口保证功能一致
+>   - `cglib代理` ( 第三方cglib库中的一套api )   通过继承目标保证功能一致
 > * Spring的AOP章节，底层采纳了如上两种代理实现，并对动态代理提供了，简单的，可操作性强的决绝方案。
 > * 当项目中需要使用代理解决问题时，可以采用AOP章节的内容加以解决。
 > * org.springframework.aop.framework.DefaultAopProxyFactory#createAopProxy()中spring做了jdk代理和cglib代理的选择。
@@ -108,15 +108,14 @@ tag: Spring
 >     <!-- ref="引入MyAdvice" -->
 >     <aop:aspect ref="myAdvice">
 >         <!-- 切入点=pointcut
->  			execution()表达式：描述切入位置
->             组成：修饰符   返回值      包      类  方法名  参数表
->                  public Integer com.xx.xxx.AA.xxxXXX(int,String)
->             * com.service.UserServiceImpl.*(..)：com.service包下UserServiceImpl类中，返回值修饰符任意，方法名任意，
-> 												 参数表任意
->             * com.service.UserServiceImpl.queryUser(..)：同上，只是方法名不是任意，而是 ”queryUser“
-> 		-->
->         <aop:pointcut id="pc" expression="execution(* com.service.UserServiceImpl.queryUser(..))"/>
->         <aop:advisor advice-ref="myBefore" pointcut-ref="pc"/>
+>  		    execution()表达式：描述切入位置
+>           组成：修饰符   返回值      包      类  方法名  参数表
+>            public Integer com.xx.xxx.AA.xxxXXX(int,String)
+>           * com.service.UserServiceImpl.*(..)：com.service包下UserServiceImpl类中，返回值修饰符任意，方法名任意，参数表任意
+>           * com.service.UserServiceImpl.queryUser(..)：同上，只是方法名不是任意，而是 ”queryUser“
+> 		 -->
+>     <aop:pointcut id="pc" expression="execution(* com.service.UserServiceImpl.queryUser(..))"/>
+>     <aop:advisor advice-ref="myBefore" pointcut-ref="pc"/>
 >     </aop:aspect>
 > </aop:config>
 > ```
@@ -130,4 +129,4 @@ tag: Spring
 
 <br>
     
-转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文]() 
+转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文](http://www.shendonghai.com/2019/11/Spring-AOP/) 
