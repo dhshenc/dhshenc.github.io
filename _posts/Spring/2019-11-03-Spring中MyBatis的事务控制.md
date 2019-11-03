@@ -22,7 +22,7 @@ tag: Spring
 > * 基于事务管理器，进一步定制，生成一个额外功能：Advice。
 > * 此Advice可以切入任何需要事务的方法，通过事务管理器为方法控制事务。
 
->```xml
+> ```xml
 > <tx:advice id="txManager" transaction-manager="tx">
 > 	<tx:attributes>
 > 		<!-- 如果 此事务管理可能切入此方法，则可以为此方法，单独定制事务属性 -->
@@ -53,14 +53,14 @@ tag: Spring
 
 ### 事务属性补充
 
-> **`isolation = 隔离级别` 隔离级别由近到远，则并发性降低，安全性提高**
+**`isolation = 隔离级别` 隔离级别由近到远，则并发性降低，安全性提高**
 > 1. `default` **(默认值==采用数据库的默认的设置)**  
 > 2. `read-uncommited`  **读未提交**   
 > 3. `read-commited`      **读提交**   
 > 4. `repeatable-read`  **可重复读**   
 > 5. `serialized-read`  **序列化读**  
 
-> **细节：**
+**细节：**
 > 1. oracle只支持了  读提交(默认)  和   序列化读  
 > 2. mysql都支持了  可重复读(默认)  
 
@@ -69,15 +69,15 @@ tag: Spring
 > 2. 不可重复读：一个事务中 多次读取相同的数据行，但是，结果不一致  
 > 3. 幻影读：一个事务中 多次读取同一张表，但是，数据行数不一致；查询时没有某数据，但是操作时，却提示存在此数据。  
 
-> **propagation=传播性**
+**propagation=传播性**
 > 1. support = 如果已经有事务，则融入这个事务；如果没事务，以非事务环境运行  
 > 2. required = 如果已经有事务，则融入这个事务；如果没事务，开启自己的事务 (默认值)  
 
-> **read-only:读写性**
+**read-only:读写性**
 > 1. true:只读事务，事务中只出现查询行为  
 > 2. false：读写事务，事务中可以出现curd行为（默认值）  
 
-> **rollback-for:回滚时刻**
+**rollback-for:回滚时刻**
 > 1. 如果事务中抛出 运行时异常(RuntimeException),则自动回滚  
 > 2. 如果事务中抛出 已检查异常(非运行时异常 Exception)，不会自动回滚，而是默认提交事务  
 >   - rollback-for="SQLException"  
@@ -154,4 +154,4 @@ tag: Spring
 
 <br>
     
-转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文]() 
+转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文](http://www.shendonghai.com/2019/11/Spring%E4%B8%ADMyBatis%E7%9A%84%E4%BA%8B%E5%8A%A1%E6%8E%A7%E5%88%B6/) 
