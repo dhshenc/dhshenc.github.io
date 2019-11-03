@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring整合MyBatisl详解"
+title: "Spring整合MyBatis详解"
 date: 2019-11-03
 tag: Spring
 ---
@@ -332,4 +332,4 @@ tag: Spring
 
 <br>
     
-转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文]() 
+转载请注明：[Memory的博客](https://www.shendonghai.com) » [点击阅读原文](http://www.shendonghai.com/2019/11/Spring%E6%95%B4%E5%90%88MyBatis%E8%AF%A6%E8%A7%A3/) 
