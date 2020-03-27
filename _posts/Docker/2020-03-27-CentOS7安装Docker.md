@@ -4,7 +4,6 @@ title: "CentOS7安装Docker"
 date: 2020-03-27
 tag: Docker
 ---
-
 ### 一、前言
 
 > * Docker的介绍、以及是Docker什么，这里就不做介绍了，网上一搜一大堆，这里只说下怎么安装。
@@ -64,10 +63,13 @@ tag: Docker
 >
 > **附加**
 >
-> * 由于国内下载Docker镜像速度慢，所以退出了加速器工具解决这个难题
+> * 由于国内下载Docker镜像速度慢，所以推出了加速器工具解决这个难题
 > * 推荐两个[【DaoCloud】](https://www.daocloud.io/)和[【阿里云】](https://promotion.aliyun.com/ntms/act/kubernetes.html)镜像加速
-> * 或者自己搭建一个私服，然后配置私服地址
->   - vim /etc/docker/daemon.json文件
+> * 或者自己搭建一个私服(自行百度)，然后配置私服地址
+>
+>```shell
+> vim /etc/docker/daemon.json文件
+>```
 
 ### 三、卸载
 
