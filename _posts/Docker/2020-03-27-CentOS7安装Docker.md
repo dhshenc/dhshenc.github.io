@@ -19,10 +19,11 @@ tag: Docker
 > **安装依赖**
 >
 > * 安装必要的依赖包
+>
 >```shell
 > yum install -y yum-utils device-mapper-persistent-data lvm2
-> yum-utis 提供yum-config-manager使用程序
-> devicemapper 存储驱动程序需要device-mapper-persistent-data和lvm2
+> #yum-utis 提供yum-config-manager使用程序
+> #devicemapper 存储驱动程序需要device-mapper-persistent-data和lvm2
 >```
 >
 > **设置安装源(使用aliyun镜像)**
@@ -39,11 +40,13 @@ tag: Docker
 > **安装指定版本**
 >
 > * 查看Docker版本
+>
 >```shell
 > yum list docker-ce --showduplicates | sort -r
 >```
 >
 > * 安装指定版本
+>
 >```shell
 > yum install docker-ce-<VERSION STRING>
 >```
