@@ -61,15 +61,19 @@ tag: Docker
 > # 这是Docker会主动下载这个镜像，并用这个镜像启动一个容器；当容器运行时，它打印hello world并退出
 >```
 >
-> **附加**
+> **使用阿里云镜像加速器**
 >
 > * 由于国内下载Docker镜像速度慢，所以推出了加速器工具解决这个难题
-> * 推荐两个[【DaoCloud】](https://www.daocloud.io/)和[【阿里云】](https://promotion.aliyun.com/ntms/act/kubernetes.html)镜像加速
+> * 常用[【DaoCloud】](https://www.daocloud.io/)镜像仓库和[【阿里云】](https://promotion.aliyun.com/ntms/act/kubernetes.html)镜像加速器
 > * 或者自己搭建一个私服(自行百度)，然后配置私服地址
+> * 这里演示配置阿里云加速器:
+> ![Docker](/images/Docker/002.jpg)
 >
 >```shell
-> vim /etc/docker/daemon.json文件
+> sudo vim /etc/docker/daemon.json # 把上图中红色框里面的复制到这个文件
+> systemctl restart docker # 重启Docker
 >```
+>
 
 ### 三、卸载
 
