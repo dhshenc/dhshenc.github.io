@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Docker中运行自定义镜像"
+title: "Docker使用DockerFile自定义镜像"
 date: 2020-04-26
 tag: Docker
 ---
 ### 一、说明
 
-> * 都是以前学过的，都快忘完了，今天复习并记录一下
+> * 这里使用例子来演示DockerFile的使用
 > * Docker中运行SpringBoot项目，是通过Docker自定义镜像完成的。
 > * 有两种方式可以自定义镜像，这里只介绍一种，也是推荐用的一种。
 > * 通过DockerFile文件(一般都用这个名字🤣)自定义镜像
