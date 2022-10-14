@@ -7,38 +7,18 @@ title: 关于我
 
 <p>
 
-此博客建于2018年3月,用来记录我学习经历。
+一个不愿意甘于现状，努力、拼搏的普通人
+博客建于2018年3月，用来记录自己的痕迹
 
 <p>
 
-作为一个开发人员，编程世界太过庞大，许多是记不住的。不信问问的脑子，看过一段时间还能不能记住。所以这个时候博客就起到了一个重要的作用，记录一些学习笔记。
+<h3>小游戏</h3>
 
 <p>
 
-<h3>学习方向</h3>
+<a target="_blank" href="/game/贪吃蛇.html">VIM训练小游戏（有BUG）</a>  
 
 <p>
-
-Java后端开发，努力进军全栈。
-
-<p>
-
-<h3>闲来无事做，写点小东西</h3>
-
-<p>
-
-<a target="_blank" href="/game/方块移动.html">有BUG的贪吃蛇</a>  
-
-<p>
-
-<h3> 我们的博客 </h3>  
-
-<p>
-
-<a target="_blank" href='https://zzzxb.github.io/'>Zzzxb博客</a>  
-<a target="_blank" href='https://me.csdn.net/MmmxsBlogs'>MmmxsBlogs博客</a>
-
-<p> 
 
 <h3> MarkDown语法说明 </h3>
 
@@ -56,7 +36,7 @@ Java后端开发，努力进军全栈。
 
 <p>
 
-如果有什么问题，请发邮件。(注明：在本作者博客看到。我的邮箱:ShenDongHai_SDH@163.COM)
+如果有什么问题，请发邮件。(注明：在本作者博客看到。我的邮箱:shendonghai_sdh@163.com)
 
 <p>
 
