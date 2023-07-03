@@ -39,7 +39,7 @@ title: 关于我
 
 <p>
 
-如果有什么问题，请发邮件。(注明：在本作者博客看到。我的邮箱:shendonghai_sdh@163.com)
+如果有什么问题，请发邮件。(注明：在本作者博客看到。我的邮箱:dhshenc@163.com)
 
 <p>
 
@@ -51,7 +51,7 @@ title: 关于我
 
 <p>
 
-这是我的 <a target="_blank" href='https://dhshenc.github.com/blog/'>GitHub</a> ，你的 Star 是我更新的动力，谢谢~
+这是我的 <a target="_blank" href='https://github.com/dhshenc/dhshenc.github.io'>GitHub</a> ，你的 Star 是我更新的动力，谢谢~
 
 <p> 
 
