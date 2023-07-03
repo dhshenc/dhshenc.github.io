@@ -1,12 +1,12 @@
 # Basic
-title: Memory63
+title: dhshenc
 subtitle: 个人站
 description: 看清自己，认清现实~
 # 头像里面的标题
 avatarTitle: GitHub
 # 头像里面的描述
 avatarDesc: Java / github
-url: "https://www.shendonghai.com"
+url: "https://dhshenc.githua.io/blog"
 
 # Comment
 comment:
@@ -15,10 +15,10 @@ comment:
 
 # Social
 social:
-    weibo: Memory63 
-    github: Memory63
+    weibo: dhshenc 
+    github: dhshenc
     # twitter: 
-    mail: ShenDongHai_SDH@163.com
+    mail: dhshenc@163.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
